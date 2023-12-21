@@ -1,10 +1,10 @@
 {
-  "name": "react-c",
+  "name": "util-react-c",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "react-c": "./index.js"
+    "util-react-c": "./index.js"
   },
   "scripts": {
     "start": "node index.js"
