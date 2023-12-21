@@ -15,5 +15,5 @@ Install library with:
 ## Create function component
 
 ```bash
-  c-react <components name>
+  c-react c <components name>
 ```
