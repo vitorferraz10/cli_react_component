@@ -10,7 +10,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vitor Ferraz",
   "license": "ISC",
   "dependencies": {
     "commander": "^11.1.0",
