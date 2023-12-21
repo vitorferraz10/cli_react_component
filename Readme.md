@@ -8,12 +8,12 @@ CLI to create function componentes tsx
 Install library with: 
 
 ```bash
-  npm install c-react -g
+  npm install react-c -g
 ```
 
 
 ## Create function component
 
 ```bash
-  c-react c <components name>
+  react-c c <components name>
 ```
