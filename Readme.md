@@ -8,7 +8,7 @@ CLI to create function componentes tsx
 Install library with: 
 
 ```bash
-  npm install custom_cli_react -g
+  npm install c-react -g
 ```
 
 
