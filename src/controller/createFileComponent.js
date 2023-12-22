@@ -4,9 +4,10 @@ const path = require("path");
 const contentFunctionComponent = require('./contentComponentReact');
 
 function createFileToComponent(fileName) {
-  const pathWithFolderSrc = `${path.dirname(
-    require.main.filename
-  )}/src/components/${fileName}`;
+  const pathRoot = path.dirname(
+    require.main.filename)
+
+  const pathWithFolderSrc = `${pathRoot}/src/components/${fileName}`;
 
   if (fs.existsSync(pathWithFolderSrc)) {
     const pathToCreateComponent = `${pathWithFolderSrc}/index.tsx`;

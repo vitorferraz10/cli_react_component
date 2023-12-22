@@ -2,9 +2,10 @@ const fs = require("fs");
 const path = require("path");
 
 function createFolderToComponent(folderName) {
-  const pathWithFolderSrc = `${path.dirname(
-    require.main.filename
-  )}/src/components/`;
+const pathRoot = path.dirname(
+  require.main.filename)
+
+  const pathWithFolderSrc = `${pathRoot}/src/components/`;
 
   if (!fs.existsSync(pathWithFolderSrc + folderName)) {
     fs.mkdirSync(pathWithFolderSrc + folderName, { recursive: true });
