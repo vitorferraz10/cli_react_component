@@ -15,5 +15,5 @@ Install library with:
 ## Create function component
 
 ```bash
-  util-react-c c <components name>
+  util-react-c c
 ```
